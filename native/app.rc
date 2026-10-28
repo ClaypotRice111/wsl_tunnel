@@ -1,0 +1,21 @@
+#include <windows.h>
+1 RT_MANIFEST "app.manifest"
+1 VERSIONINFO
+ FILEVERSION 0,3,1,0
+ PRODUCTVERSION 0,3,1,0
+ FILETYPE VFT_APP
+BEGIN
+ BLOCK "StringFileInfo"
+ BEGIN
+  BLOCK "040904b0"
+  BEGIN
+   VALUE "FileDescription", "WSL Tunnel Native"
+   VALUE "FileVersion", "0.3.1"
+   VALUE "ProductName", "WSL Tunnel"
+  END
+ END
+ BLOCK "VarFileInfo"
+ BEGIN
+  VALUE "Translation", 0x409, 1200
+ END
+END

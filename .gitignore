@@ -1,0 +1,7 @@
+rules.json
+rules.json.tmp
+__pycache__/
+*.pyc
+.toolchain/
+dist/
+.build/
